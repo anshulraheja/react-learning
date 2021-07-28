@@ -8,6 +8,9 @@ import WindowWidth from "./components/WindowWidth";
 import ChangeTheme from "./components/ChangeTheme";
 import { ThemeProvider } from "./components/ChangeThemeContext";
 import StopWatch from "./components/StopWatch";
+import DOMElements from "./components/DOMElements";
+import UseEffectSkipFirstRender from "./components/useEffectSkipFirstRender";
+
 export default function App() {
   return (
     <div className="App">
@@ -19,7 +22,9 @@ export default function App() {
       {/* <ThemeProvider>
         <ChangeTheme />
       </ThemeProvider> */}
-      <StopWatch />
+      {/* <StopWatch /> */}
+      {/* <DOMElements /> */}
+      <UseEffectSkipFirstRender />
     </div>
   );
 }
