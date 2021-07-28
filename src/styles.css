@@ -2,3 +2,49 @@
   font-family: sans-serif;
   text-align: center;
 }
+/* ChangeTheme */
+.black {
+  background-color: red;
+}
+
+.white {
+  background-color: green;
+}
+
+/* StopWatch */
+.containerStyling {
+  margin-top: 200px;
+}
+
+.timerStyling {
+  font-size: 50px;
+  border: 1px solid rgb(0, 0, 0);
+  background-color: grey;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  width: 30%;
+  margin: auto;
+  padding: 10px;
+  border-radius: 10px 10px 10px 10px;
+}
+.ButtonStyling {
+  cursor: pointer;
+  padding: 10px;
+  margin: 20px 8px 2px 8px;
+  border: 2px solid black;
+  font-size: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.startButton:hover {
+  background-color: green;
+  font-size: 22px;
+}
+.stopButton:hover {
+  background-color: red;
+  font-size: 22px;
+}
+.resetButton:hover {
+  background-color: blue;
+  font-size: 22px;
+}
