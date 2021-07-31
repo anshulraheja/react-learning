@@ -10,7 +10,7 @@ import { ThemeProvider } from "./components/ChangeThemeContext";
 import StopWatch from "./components/StopWatch";
 import DOMElements from "./components/DOMElements";
 import UseEffectSkipFirstRender from "./components/useEffectSkipFirstRender";
-
+import QuizBee from "./components/QuizBee";
 export default function App() {
   return (
     <div className="App">
@@ -24,7 +24,8 @@ export default function App() {
       </ThemeProvider> */}
       {/* <StopWatch /> */}
       {/* <DOMElements /> */}
-      <UseEffectSkipFirstRender />
+      {/* <UseEffectSkipFirstRender /> */}
+      <QuizBee />
     </div>
   );
 }
