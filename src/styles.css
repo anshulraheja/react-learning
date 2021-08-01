@@ -48,3 +48,84 @@
   background-color: blue;
   font-size: 22px;
 }
+
+/* todoList app */
+/* * {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+} */
+.main-div {
+  background-color: grey;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.center-div {
+  background-color: rgb(112, 165, 42);
+  height: 50vh;
+  width: 50%;
+  border-radius: 15px;
+  position: relative;
+}
+.input-div {
+  background-color: blue;
+}
+.todo-heading {
+  background-color: rgb(65, 73, 65);
+  color: red;
+  padding: 6px 0 2px 0;
+  margin-bottom: 10px;
+}
+
+.todo-input {
+  text-align: center;
+  height: 30px;
+  border: none;
+}
+.add-button {
+  width: 30px;
+  min-height: 30px;
+  border-radius: 50%;
+  border-color: transparent;
+  outline: none;
+  margin-left: 10px;
+  font-size: 20px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.add-button:hover {
+  background-color: green;
+}
+.todo-undordered {
+  /* background-color: red; */
+  list-style-type: none;
+  /* margin-top: 20px; */
+}
+.todo_style {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: left;
+  margin: 0 15px 0 15px;
+}
+.todo-delete {
+  padding-right: 20px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.todo-delete:hover {
+  background-color: red;
+}
+ol li {
+  padding-left: 0;
+  text-align: left;
+  font-size: 20px;
+  font-weight: 400;
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+  text-transform: capitalize;
+}

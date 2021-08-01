@@ -11,6 +11,7 @@ import StopWatch from "./components/StopWatch";
 import DOMElements from "./components/DOMElements";
 import UseEffectSkipFirstRender from "./components/useEffectSkipFirstRender";
 import QuizBee from "./components/QuizBee";
+import TodoList from "./components/TodoList";
 export default function App() {
   return (
     <div className="App">
@@ -25,7 +26,8 @@ export default function App() {
       {/* <StopWatch /> */}
       {/* <DOMElements /> */}
       {/* <UseEffectSkipFirstRender /> */}
-      <QuizBee />
+      {/* <QuizBee /> */}
+      <TodoList />
     </div>
   );
 }
